@@ -1,5 +1,5 @@
 
-<!--<?php session_start(); ?>-->
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +35,7 @@
       <div class="text3">
         <h3>Seulement ici pour toi</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat eligendi culpa rem porro in, quis facere temporibus quibusdam facilis incidunt atque voluptatibus sequi id error accusantium eveniet et pariatur quaerat!</p>
-        <a href="nous-contactez.html" class="btn">Nous-contacter</a>
+        <a href="nous-contactez.php" class="btn">Nous-contacter</a>
       </div>
     </div>
     <?php require "include/footer.php" ?>
