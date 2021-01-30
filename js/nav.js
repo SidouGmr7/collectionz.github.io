@@ -1,0 +1,9 @@
+$(function(){
+  $('#navc').load('includehtml/navc.html');
+})
+  $(function(){
+    $('#nav').load('includehtml/nav.html');
+  })
+  $(function(){
+    $('#footer').load('includehtml/footer.html');
+  })
