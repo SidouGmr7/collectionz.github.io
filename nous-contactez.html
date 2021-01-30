@@ -38,7 +38,7 @@
     </style>
 </head>
 <body>
-      <?php require "include/navbar.php" ?>
+    
         <div class="form">
           <div class="principal">
               <h1 style="color: #e85a4f;">Contactez-nous</h1>
@@ -68,19 +68,17 @@
               </div>
               <div class="form-group">
                 <div class="col-md-12 text-right">
-                  <?php if (isset($_SESSION['admin'])): ?>
+              
 
-                  <?php else: ?>
+                 
                     <a class="btn submit" href="php/AdminP.php">Postuler pour devenir administrateur</a>
-                  <?php endif; ?>
+                 
 
                   <button type="submit" class="btn submit"><i class="fas fa-paper-plane"></i></button>
                 </div>
               </div>
           </div>
         </div>
-      <?php require "include/footer.php" ?>
-      <?php require "include/alert.php" ?>
-
+    
 </body>
 </html>
